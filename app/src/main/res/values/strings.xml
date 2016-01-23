@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Aplicación</string>
+
+    <!--Elementos de las news-->
+    <string name="txtNews">Articulos</string>
+    <string name="btnUpdateNews">Actualizar</string>
+    <string name="mnNews">Noticias</string>
+
+    <!-- Elementos de los wallpapers -->
+    <string name="btnWallpapersNext">Siguientes</string>
+    <string name="mnWallpapers">Fondos de pantalla</string>
+
+    <!--Elementos de los libros-->
+    <string name="btnBooksSearch">Buscar</string>
+    <string name="txtBookName">Escribe el nombre del libro...</string>
+
+    <!--Elementos de los lugares-->
+    <string name="txtNamePlace">Escribe el lugar a buscar</string>
+    <string name="btnSearch">Buscar lugar</string>
+
+    <!--Elementos del traductor-->
+    <string name="txtSourceTraslate">Escribe el texto a traducir...</string>
+    <string name="txtResult">Resultado</string>
+    <string name="rdEStoEN">Español a ingles</string>
+    <string name="txtENtoES">Ingles a español</string>
+    <string name="btnTranslate">Traducir</string>
+</resources>

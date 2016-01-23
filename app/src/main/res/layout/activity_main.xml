@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TableLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableLayout" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TableRow android:layout_height="fill_parent" android:layout_width="fill_parent">
+            <ImageView
+                android:layout_height="150px"
+                android:layout_width="150px"
+                android:id="@+id/imgNews"
+                android:padding="2dp"
+                android:clickable="true"
+                android:src="@drawable/news"
+                android:layout_column="0"
+                android:onClick="btnNews"
+                android:contentDescription="Noticias" />
+            <ImageView
+                android:layout_height="150px"
+                android:layout_width="150px"
+                android:id="@+id/imgWallpapers"
+                android:padding="2dp"
+                android:clickable="true"
+                android:src="@drawable/wallpapers"
+                android:layout_column="0"
+                android:onClick="btnWallpapers"
+                android:contentDescription="Wallpapers" />
+        </TableRow>
+
+        <TableRow android:layout_height="fill_parent" android:layout_width="fill_parent">
+            <ImageView
+                android:layout_height="150px"
+                android:layout_width="150px"
+                android:id="@+id/imgBooks"
+                android:padding="2dp"
+                android:clickable="true"
+                android:src="@drawable/books"
+                android:layout_column="0"
+                android:contentDescription="Libros"
+                android:onClick="btnBooks"/>
+            <ImageView
+                android:layout_height="150px"
+                android:layout_width="150px"
+                android:id="@+id/imgWeather"
+                android:padding="2dp"
+                android:clickable="true"
+                android:src="@drawable/weather"
+                android:layout_column="0"
+                android:contentDescription="Clima"
+                android:onClick="btnWeather"/>
+        </TableRow>
+
+        <TableRow android:layout_height="fill_parent" android:layout_width="fill_parent">
+            <ImageView
+                android:layout_height="150px"
+                android:layout_width="150px"
+                android:id="@+id/imgPlaces"
+                android:padding="2dp"
+                android:clickable="true"
+                android:src="@drawable/places"
+                android:layout_column="0"
+                android:onClick="btnPlaces" />
+            <ImageView
+                android:layout_height="150px"
+                android:layout_width="150px"
+                android:id="@+id/imgOthers"
+                android:padding="2dp"
+                android:clickable="true"
+                android:src="@drawable/translate"
+                android:layout_column="0"
+                android:onClick="btnTranslate" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
